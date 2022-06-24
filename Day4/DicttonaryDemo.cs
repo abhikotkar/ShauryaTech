@@ -31,7 +31,11 @@ namespace ShauryaTech.Day4
         int id;
         string name;
         int perc;
+        public override string ToString()
+        {
 
+            return $"Id={id} Name={name} Percentage={perc}";
+        }
         public Student1(int id, string name, int perc)
         {
             this.id = id;
@@ -45,21 +49,19 @@ namespace ShauryaTech.Day4
 
 
 
-       /* public override bool Equals(object obj)
+        
+       public override int GetHashCode()
         {
-            return obj is Student student &&
+            return HashCode.Combine(id, name, perc);
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Student1 student &&
                    id == student.id &&
                    name == student.name &&
                    perc == student.perc;
         }
-
-       public override int GetHashCode()
-        {
-            return HashCode.Combine(id, name, perc);
-        }*/
-        
-                              
-       
     }
         class DictionaryDemo2
     {
