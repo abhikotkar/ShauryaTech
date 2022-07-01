@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>ShauryaTech.Day6_AND_Day7.AA</StartupObject>
+    <StartupObject>ShauryaTech.Day8.Treading2</StartupObject>
   </PropertyGroup>
 
 </Project>
