@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>ShauryaTech.Day8.Treading2</StartupObject>
+    <StartupObject>ShauryaTech.AdonetDay1.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
